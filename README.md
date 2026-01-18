@@ -13,14 +13,19 @@ It also includes a **visual testing module** that loads a random video from the 
 
 * Uses **MobileNetV2** for spatial feature extraction
 * Uses **LSTM** to capture temporal motion patterns
-* Trained on a selected subset of **UCF101** containing 5 actions:
+* Trained on a selected subset of **UCF101** containing 10 actions:
 
   ```
-  WalkingWithDog
-  PushUps
-  BrushingTeeth
-  BlowingCandles
-  Typing
+  "WalkingWithDog",
+  "PushUps",
+  "BrushingTeeth",
+  "BlowingCandles",
+  "Typing",
+  "Archery",
+  "Basketball",
+  "Bowling",
+  "BoxingPunchingBag",
+  "HorseRace"
   ```
 
 ### 🔹 **2. Preprocessing Pipeline**
